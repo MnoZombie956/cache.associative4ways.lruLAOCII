@@ -3,7 +3,7 @@
 4-way associative, 256 cache lines, 4 words block size, 16 bits word, pseudo LRU
 
 ## Bit guide
-
+`
 address:
 	block_offset ~2 bits~ 
 	index ~8 bits~
@@ -43,6 +43,7 @@ cache_line's structure bits:
 	   block:
 		|word1|word2|word3|word4|
 		 63 48 47 32 31 16 15 0
+` 
 # Diagrams
 Logisim project:
 ComputerArchQntApproach, Hennesey and Patterson:
