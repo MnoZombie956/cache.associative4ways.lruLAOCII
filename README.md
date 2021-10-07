@@ -1,6 +1,5 @@
 # cache.associative4ways.lruLAOCII
-
-L1 4-way associative, 256 lines, 4 words block size, 16 bits word, pseudo LRU cache.
+### L1 4-way associative, 256 lines, 4 words block size, 16 bits word, pseudo LRU cache.
 ---
 ## Bit guide
 ```
